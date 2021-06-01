@@ -8,8 +8,8 @@ function App() {
       <p className= "description"> Get your own special sports equipment from Galaxy sports to
 practice your favorite sport
 </p>
-<i class="icon"> </i>
-<img src = "https://lh3.googleusercontent.com/2BBO1xZFq-dUB4igoS0nsMeHW4-v2smnvauhXrnCwer0PM6LmlgWHoLeUHHZjfLl8nfwRQNreYGcognRyvLQi92Xuw=w1000" />
+
+<img className= "imagesport" src = "https://lh3.googleusercontent.com/2BBO1xZFq-dUB4igoS0nsMeHW4-v2smnvauhXrnCwer0PM6LmlgWHoLeUHHZjfLl8nfwRQNreYGcognRyvLQi92Xuw=w1000" />
 
     </div>
   );
