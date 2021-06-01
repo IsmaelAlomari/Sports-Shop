@@ -17,4 +17,41 @@ font-weight: bold;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  margin-bottom: 50px;
+  
+}
+
+.styleOfWords{
+  font-weight: bold;
+  color: rgb(88, 41, 41);
+  font-family: serif;
+}
+
+.sport-Images {
+  border: 15px solid #ddd;
+  border-radius: 4px;
+  padding: 50px;
+  width: 150px;
+ 
+
+}
+
+.store {
+  font-weight: bold;
+  font-family: serif;
+  font-size: 50px;
+  color: blue;
+}
+
+
+.productsList {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.productImages{
+  padding: 5px;
+  text-align: center;
 }
