@@ -7,15 +7,11 @@ header{
     font-family: serif;
 }
 
-background-color: ${props => props.theme.backgroundColor}
+body {background-color: ${props => props.theme.backgroundColor}}
+
 `
 
-export const theme = {
-  
-    mainColor: "#FFCC99",
-    backgroundColor : "#CCCCCC",
-    textColor : "#616161"
-}
+
 
 export const List = styled.div `
 
@@ -24,3 +20,12 @@ export const List = styled.div `
   justify-content: center;
   
 `
+
+export const ThemeButton = styled.button`
+  font-size: 1em;
+  margin: 1.25em;
+  padding: 0.25em 1em;
+  border-radius: 3px;
+  background-color: ${(props) => props.theme.mainColor};
+  color: ${(props) => props.theme.backgroundColor};
+`;
