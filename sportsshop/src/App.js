@@ -7,6 +7,7 @@ import { useState } from "react";
 
 
 
+
 const theme = {
   light: {
     mainColor: "#242424",
@@ -22,6 +23,7 @@ const theme = {
     red: "#ff3232",
   },
 };
+
 
 function App() {
 const [themeOfPage , setTheme] = useState(theme.light);
